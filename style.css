@@ -1,0 +1,94 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 960px;
+    margin: 0 auto;
+}
+h1, h2, h3 {
+    color: brown;
+}
+nav li{
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    width: 16%;
+}
+nav ul {
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+header {
+    background-image: url("./images/coffee-beans.jpg");
+    height: 100px;
+    margin-bottom: 70px;
+    display: block;
+    /* position: sticky; */
+    top: 0px;
+}
+header h1 {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 50px;
+    color: rgba(255, 255, 255, .8);
+}
+header nav a:hover {
+    background-color: black;
+}
+header nav ul {
+    background-color: brown;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+header nav a:link, header nav a:visited {
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+a:link, a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: brown;
+}
+a:hover {
+    color: black;
+}
+figure {
+    float: right;
+}
+.img-cafe-index {
+    float: left;
+    margin: 20px;
+}
+aside {
+    float: right;
+    background-color: tan;
+    text-align: center;
+    font-weight: bold;
+    width: 280px;
+    padding: 2%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+ul.cafe {
+    list-style-image: url('./images/tiny-coffee-cup.gif');
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.5%;
+    text-align: center;
+    margin: 0 auto;
+}
+td {
+    width: 10%;
+}
+footer nav {
+    margin: 50px 0;
+    clear: both;
+}
+footer nav a:link, footer nav a:visited {
+    color: grey;
+}
+footer nav li a:hover {
+    color: black;
+}
